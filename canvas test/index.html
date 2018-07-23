@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Canvas Test</title>
+        <script type="text/javascript" src="main.js"></script>
+        <style type="text/css">
+            canvas { border: 1px solid black; }
+        </style>
+    </head>
+    <body onload="draw();">
+        <div>
+            <label for="x">x : </label>
+            <input type="text" id="x" value="5">
+        </div>
+        <div>
+                <label for="y">y : </label>
+            <input type="text" id="y" value="5">
+        </div>
+        <div>
+            <label for="w">width : </label>
+            <input type="text" id="w" value="50">
+        </div>
+        <div>
+            <label for="h">height : </label>
+            <input type="text" id="h" value="50">
+        </div>
+        <h3>color</h3>
+        <div>
+            <label for="r">red : </label>
+            <input type="text" id="r" value="50">
+        </div>
+        <div>
+            <label for="g">green : </label>
+            <input type="text" id="g" value="50">
+        </div>
+        <div>
+                <label for="b">blue : </label>
+                <input type="text" id="b" value="50">
+        </div>
+        <div>
+            <button onclick="draw();">Go</button>
+        </div>
+        <canvas id="tutorial" width="400px" height="400px"></canvas>
+    </body>
+</html>
